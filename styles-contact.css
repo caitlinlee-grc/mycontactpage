@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background-image: url("images/caitlinleebg.jpg");
+  background-image: url("images/Strawberries-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -71,9 +71,10 @@ html, body {
 
 .center {
     width: 40%; /* ------ This is for responsiveness -------*/
+	min-width: 300px; /* ----- This is for responsiveness -----*/
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(160, 195, 200, 0.75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(255, 255, 255, 0.85); /*this uses opacity of 85% for the background color*/
 	text-align: center;
 }
 
@@ -111,7 +112,7 @@ nav{
 	font-size: 1.2 em;
 	width: 80%; /* -------- This is for responsiveness --------*/
 	margin: 0 auto;
-	border: dashed rgb(255, 255, 255); /* ----- Changed color ----- */
+	border: dashed rgb(147, 179, 191); /* ----- Changed color ----- */
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
