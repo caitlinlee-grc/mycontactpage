@@ -72,22 +72,23 @@ html, body {
 .center {
     width: 40%; /* ------ This is for responsiveness -------*/
 	min-width: 300px; /* ----- This is for responsiveness -----*/
+	border-radius: 40px; /*----This is for rounded corners------*/
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(255, 255, 255, 0.85); /*this uses opacity of 85% for the background color*/
+ 	background: rgba(255, 255, 255, 0.95); /*this uses opacity of 90% for the background color*/
 	text-align: center;
 }
 
    
 #logo {
-    width: 50%; /* ----- This is for responsiveness ------ */
+    width: 70%; /* ----- This is for responsiveness ------ */
 	margin-bottom: 16px;
 	text-align: center;
 }
 
 h1 {
 	font-family: "adlery-pro-swash", sans-serif; /* ----- Changed font -----*/
-	font-size: 2em;
+	font-size: 2.6em; /*---Increased Font----*/
     margin: 0px auto 10px auto;
     color: #000000; /*---- Changed color ------*/
 }
@@ -112,26 +113,27 @@ nav{
 	font-size: 1.2 em;
 	width: 80%; /* -------- This is for responsiveness --------*/
 	margin: 0 auto;
-	border: dashed rgb(147, 179, 191); /* ----- Changed color ----- */
-	border-width: 3px 0;
+	border: solid rgb(249, 77, 77); /* ----- Changed color and to solid lines----- */
+	background-color: rgb(255, 213, 213);
+	border-width: 2.5px; 
 	text-align: center;
-	margin-top: 2em;
+	margin-top: 1.5em;
 }
 nav li{
 	display: inline;
 }
 nav a{
 	display: inline-block;
-	padding: 10px;
+	padding: 6px; /*----Shortened Nav bar----*/
 }
 a{
-	color:#444;
+	color:#000000;
 	text-decoration: none;
 	font-weight: bold;
 }
 a:hover{
 	color: black;
-	background: pink;
+	background: rgb(249, 77, 77);
 }
 
     
